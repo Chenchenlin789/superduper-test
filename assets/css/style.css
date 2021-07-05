@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+  
+
+body {
+ font-family: 'Maven Pro', sans-serif;
+ font-size: 15px;
+}
+
+.fontsize-small {
+ text-align: center;
+ font-size: 15px;
+}
+
+.fontsize-big{
+text-align: center;
+ font-size: 56px;
+}
+
+header {
+background-color: black;
+color: white;
+}
+
+div:first-child p{
+font-size: 18px;
+}
+
+
+header section:first-of-type {
+margin:0 auto;
+padding: 2%;
+width: 25%;
+background: linear-gradient(25deg, rgba(133,7,225,1) 35%, rgba(0,212,255,1) 100%, #ccc 45%, rgba(61,200,213,1) 35%);
+}
+
+
+header section:first-of-type:hover {
+padding: 2%;
+width: 25%;
+background: linear-gradient(205deg, rgba(133,7,225,1) 35%, rgba(0,212,255,1) 100%, #ccc 45%, rgba(61,200,213,1) 35%);
+}
+
+nav {
+position: relative;
+text-align: right;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color:rgba(61,200,213,1);
+font-weight: bold;
+font-size: 25px;
+}
+
+
+main { 
+margin: 0 auto;
+padding-left: 7%;
+background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-attachment: fixed;
+}
+
+main section:first-child {
+width: 50%;
+}
+
+
+main section h1{
+ font-size: 40px;
+}
+
+
+img {
+width: 70%;
+border-radius: 5%;
+
+}
+
+main section {
+margin: 15% 0px auto;
+
+}
+
+.size {
+font-size: 35px;
+}
